@@ -1,0 +1,21 @@
+{
+  "name": "projeto_typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "tsc index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tamer Serhan",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "parcel-bundler": "^1.3.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.14",
+    "typescript": "^4.7.4"
+  }
+}
